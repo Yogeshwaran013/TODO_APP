@@ -1,0 +1,74 @@
+body{
+    font-size: 23px;
+}
+.todo{
+    position:fixed;
+    top:0px;
+    right:0px;
+    background-color: rgba(132, 193, 231, 0.989);
+    height: 100%;
+    width: 50%;
+    color: rgb(0, 0, 0);
+    padding: 33px;
+}
+.todo h2{
+    color: brown;
+    align-content: center;
+    
+}
+
+.work {
+  background-color: #ffffff;
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-left: 4rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  width: 400px;
+}
+.work input{
+    width:200px;
+    height: 10px;
+    font-size: large;
+}
+button{
+    margin-left: 6rem;
+    margin-top: 2rem;
+    width: 200px;
+    background-color:#e74c3c;
+    height: 50px;
+    cursor: pointer;
+    font-size: larger;
+    color:#ffffff
+}
+input.work:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+button:hover {
+  background-color: red;
+}
+
+
+li {
+  display: flex;
+  justify-content: space-between;  /* Pushes button to the right */
+  align-items: center;
+  background-color: #fefefe;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+li button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 12px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
